@@ -1,0 +1,2 @@
+[workspace]
+members = ["features/folders", "core", "data/memory", "apps/actix-server", "apps/cli"]
