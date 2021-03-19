@@ -2137,3 +2137,12 @@ dependencies = [
  "serde",
  "yatir-core",
 ]
+
+[[package]]
+name = "yatir-todos"
+version = "0.0.0"
+dependencies = [
+ "async-trait",
+ "serde",
+ "yatir-core",
+]
