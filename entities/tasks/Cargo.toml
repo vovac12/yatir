@@ -1,5 +1,5 @@
 [package]
-name = "yatir-todos"
+name = "yatir-tasks"
 version = "0.0.0"
 authors = ["Vladimir Stepanenko <vovac12@gmail.com>"]
 edition = "2018"

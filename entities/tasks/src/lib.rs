@@ -5,7 +5,7 @@ pub mod repo;
 use yatir_core::prelude::*;
 
 #[derive(Debug, Clone, Default, Serialize, Deserialize)]
-pub struct ToDo {
+pub struct Task {
     pub parent: Index,
     pub id: Index,
     pub name: String,
@@ -18,7 +18,7 @@ pub(crate) fn default_todo_name() -> String {
 
 pub mod prelude {
     pub use super::{
-        repo::{CreateToDo, ToDoRepo, UpdateToDo},
-        ToDo,
+        repo::{CreateTask, TasksRepo, UpdateTask},
+        Task,
     };
 }

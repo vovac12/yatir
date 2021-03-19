@@ -2139,7 +2139,7 @@ dependencies = [
 ]
 
 [[package]]
-name = "yatir-todos"
+name = "yatir-tasks"
 version = "0.0.0"
 dependencies = [
  "async-trait",
