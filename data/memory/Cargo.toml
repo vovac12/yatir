@@ -7,5 +7,6 @@ edition = "2018"
 [dependencies]
 yatir-core = { path = "../../core" }
 yatir-folders = { path = "../../entities/folders" }
+yatir-tasks = { path = "../../entities/tasks" }
 async-trait = "0.1"
 async-std = "1.9"
