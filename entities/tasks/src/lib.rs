@@ -18,7 +18,7 @@ pub(crate) fn default_task_name() -> String {
 
 pub mod prelude {
     pub use super::{
-        repo::{CreateTask, TaskRepo, UpdateTask},
+        repo::{CreateTask, TasksRepo, UpdateTask},
         Task,
     };
 }

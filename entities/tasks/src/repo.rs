@@ -19,7 +19,7 @@ pub struct UpdateTask {
 }
 
 #[async_trait]
-pub trait TaskRepo: Send + Sync {
+pub trait TasksRepo: Send + Sync {
     async fn get(&self, id: Index) -> CoreResult<Task>;
     async fn get_by_parent(&self, id: Index) -> CoreResult<Paging<Task>>;
     async fn create(&self, folder: CreateTask) -> CoreResult<Task>;

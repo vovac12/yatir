@@ -5,7 +5,7 @@ use yatir_folders::prelude::FoldersRepo;
 use yatir_tasks::prelude::*;
 
 #[async_trait]
-impl TaskRepo for MemoryDatabase {
+impl TasksRepo for MemoryDatabase {
     async fn get(&self, id: Index) -> CoreResult<Task> {
         self.tasks
             .read()
